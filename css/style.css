@@ -47,6 +47,7 @@ header img {
 }
 h1 {
   margin-bottom: 24px;
+  font-family: var(--raleway);
   font-size: 24px;
   line-height: 36px;
 }
@@ -290,4 +291,263 @@ footer > div > img {
 .frontend a {
   text-decoration: none;
   color: white;
+}
+@media (min-width: 1024px) {
+  nav {
+    margin: 65px auto 86px;
+    max-width: 1440px;
+  }
+  nav img {
+    width: 15%;
+  }
+  nav div {
+    font-size: 16px;
+  }
+  nav div a {
+    margin-left: 57px;
+  }
+  header {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 164px;
+    width: 85%;
+    max-width: 1440px;
+    text-align: left;
+  }
+  header img {
+    width: 100%;
+  }
+  h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .text {
+    width: 100%;
+    margin-right: 30px;
+  }
+  .text > p {
+    margin-bottom: 32px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .mail {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    max-width: 320px;
+    height: 45px;
+    margin: 0 0;
+  }
+  .mail p:first-child {
+    line-height: 45px;
+  }
+  .mail p:nth-child(2),
+  .mail p:last-child {
+    position: absolute;
+    font-size: 14px;
+    display: none;
+  }
+  .mail p:nth-child(2) {
+    top: +25%;
+    left: 16px;
+  }
+  .mail p:last-child {
+    color: red;
+  }
+  .text a {
+    width: 30%;
+    max-width: 200px;
+    padding: 0px 0;
+    height: 45px;
+    margin: 0 0 0 16px;
+    line-height: 45px;
+  }
+  .text a:hover p:nth-child(2),
+  .text a:hover p:last-child {
+    display: block;
+  }
+  .picture {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-size: 0;
+  }
+  .stay-productive {
+    flex-direction: row;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .stay-productive > div > img {
+    width: 90%;
+  }
+  .text-productive {
+    margin: 0 50px;
+  }
+  .text-productive h2 {
+    margin-bottom: 38px;
+    font-size: 40px;
+  }
+  .text-productive p {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+  .text-productive a {
+    margin: 15px auto 45px;
+    padding-bottom: 4px;
+    font-size: 16px;
+  }
+  .text-productive a:hover {
+    color: #71dfcc;
+    border: 1px solid #71dfcc;
+  }
+  .text-productive > a > img {
+    height: 15px;
+    width: 15px;
+  }
+  .quote {
+    box-sizing: border-box;
+    width: 60%;
+    max-width: 356px;
+    margin: 0 0 107px;
+    padding: 26px 34px;
+  }
+  .quote > img:first-of-type {
+    width: 18px;
+    height: 18px;
+  }
+  .quote p {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .quote > div > img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+  .quote > div {
+    display: inline-block;
+    transform: translateY(-5%);
+  }
+  .quote h3 {
+    font-size: 11px;
+  }
+  .quote div p {
+    margin-top: -4px;
+    font-size: 8px;
+  }
+  .early-access {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 322px;
+    padding: 0 0 0 0;
+    text-align: left;
+  }
+  .text-early {
+    width: 40%;
+    margin: 10%;
+  }
+  .early-access h2 {
+    margin-bottom: 17px;
+    font-size: 32px;
+  }
+  .early-access p {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .get-started-all {
+    width: 40%;
+    margin: 10%;
+  }
+  .get-started {
+    margin: 0 0 16px;
+    max-width: 480px;
+    height: 48px;
+  }
+  .get-started p:nth-child(2),
+  .get-started p:nth-child(3) {
+    display: none;
+  }
+  .get-started p:first-child {
+    padding-left: 16px;
+    font-size: 12px;
+    line-height: 48px;
+  }
+  .early-access a {
+    width: 80%;
+    max-width: 200px;
+    height: 48px;
+    font-size: 14px;
+    line-height: 48px;
+    text-align: center;
+  }
+  footer {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 92px auto 86px 80px;
+  }
+  footer > div > img {
+    margin-bottom: 36px;
+    width: 15%;
+  }
+  .information {
+    display: flex;
+    flex-direction: row;
+  }
+  .phone-mail {
+    width: 25%;
+  }
+  .phone-mail p {
+    margin-bottom: 16px;
+    width: 100%;
+    font-size: 16px;
+  }
+  .about,
+  .contact {
+    width: 25%;
+    margin-top: 0;
+  }
+  .social {
+    display: flex;
+    width: 25%;
+    text-align: center;
+  }
+  .social a {
+    position: relative;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin: 0 9px 42px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .fa-facebook-f,
+  .fa-twitter,
+  .fa-instagram {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(+55%, -50%);
+    font-size: 13px;
+    color: white;
+  }
+  .frontend {
+    font-size: 10px;
+    text-align: center;
+  }
+  .frontend a {
+    text-decoration: none;
+    color: white;
+  }
 }
