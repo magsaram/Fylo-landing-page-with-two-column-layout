@@ -1,0 +1,14 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --darkBlue: hsl(243, 87%, 12%);
+  --blue: hsl(238, 22%, 44%);
+  --brightBlue: hsl(224, 93%, 58%);
+  --cyan: hsl(170, 45%, 43%);
+  --grayBlue: hsl(240, 75%, 98%);
+  --gray: hsl(0, 0%, 75%);
+}
